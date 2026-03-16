@@ -5,7 +5,7 @@
   align-items: center; */
   display: flex;
   top: 80px;
-  padding: 3%;
+  padding: 10px;
   width: 100%;
   height: 600px;
   background: linear-gradient(315deg, #ffebcc, #ffebc4);
