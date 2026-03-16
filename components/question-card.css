@@ -54,6 +54,7 @@
 .questions-tags {
   display: flex;
   flex-direction: row;
+  align-self: flex-start;
   gap: 5px;
   list-style: none;
 }
