@@ -24,13 +24,15 @@
 }
 
 .question-title {
+  font-display: block;
 }
 
 .question-answer {
 }
 
 .question-button {
-  background-color: #fdfdfe;
+  background-color: #fdfdfe76;
+  backdrop-filter: blur(10px);
   border: 0.5px solid #1d1d1f;
   border-radius: 26px;
   text-decoration: none;
@@ -41,6 +43,19 @@
 }
 
 .question-button:hover {
-  background-color: #fdfdfeee;
+  background-color: #fdfdfebf;
   transform: scale(1.02);
+}
+
+.questions-tags {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  list-style: none;
+}
+.tags-item {
+  font-size: small;
+  background: grey;
+  padding: 4px 8px;
+  border-radius: 8px;
 }
