@@ -6,20 +6,7 @@
   top: 80px;
   padding: 3%;
   width: 100%;
-  height: auto;
+  height: 600px;
+  overflow: scroll;
   background: linear-gradient(315deg, #ffebcc, #ffebc4);
-}
-
-.question-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  gap: 20px;
-  background: #ffffff38;
-  padding: 32px;
-  border-radius: 26px;
-  backdrop-filter: blur(17px);
-  border: 1px solid;
 }
