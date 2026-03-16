@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  height: 300px;
   gap: 20px;
   background: #ffffff38;
   padding: 32px;
@@ -18,13 +19,16 @@
   right: 0;
   height: 50px;
   width: 50px;
-  background-color: #ffffff38;
+  background-image: url(../assets/bookmark.svg);
   background-repeat: no-repeat;
-  border: solid;
+}
+
+.bookmak__icon {
+  cursor: pointer;
 }
 
 .question-title {
-  font-display: block;
+  font-weight: 300;
 }
 
 .question-answer {
@@ -58,4 +62,5 @@
   background: grey;
   padding: 4px 8px;
   border-radius: 8px;
+  cursor: pointer;
 }
