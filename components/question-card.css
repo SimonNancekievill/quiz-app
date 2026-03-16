@@ -1,10 +1,10 @@
 .question-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   position: relative;
-  height: 300px;
+  height: minmax(300px, max-content);
   gap: 20px;
   background: #ffffff38;
   padding: 32px;
@@ -61,7 +61,8 @@
 }
 .tags-item {
   font-size: small;
-  background: grey;
+  background: #e5e5e5cc;
+  border: 0.5px solid;
   padding: 4px 8px;
   border-radius: 8px;
   cursor: pointer;
