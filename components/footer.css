@@ -14,7 +14,8 @@
   width: 100%;
   height: 80px;
   position: fixed;
-  background-color: white;
+  background: #ffffffb1;
+  backdrop-filter: blur(17px);
 }
 
 .footer-group {
@@ -22,5 +23,5 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 100px;
+  height: 80px;
 }
