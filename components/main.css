@@ -9,28 +9,3 @@
   height: auto;
   background: linear-gradient(315deg, #ffebcc, #ffebc4);
 }
-
-.question-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  gap: 20px;
-  background: #ffffff38;
-  padding: 32px;
-  border-radius: 26px;
-  backdrop-filter: blur(17px);
-  border: 1px solid;
-}
-
-.card__bookmark {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 50px;
-  width: 50px;
-  background-color: #ffffff38;
-  background-repeat: no-repeat;
-  border: solid;
-}
