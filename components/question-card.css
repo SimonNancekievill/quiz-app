@@ -15,16 +15,17 @@
 
 .card__bookmark {
   position: absolute;
-  top: 0;
-  right: 0;
-  height: 50px;
-  width: 50px;
-  background-image: url(../assets/bookmark.svg);
-  background-repeat: no-repeat;
+  top: -15px;
+  right: 10px;
+  background: none;
+  border: none;
 }
 
 .bookmak__icon {
+  position: relative;
   cursor: pointer;
+
+  background-color: white;
 }
 
 .question-title {
