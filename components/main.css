@@ -23,3 +23,14 @@
   backdrop-filter: blur(17px);
   border: 1px solid;
 }
+
+.card__bookmark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff38;
+  background-repeat: no-repeat;
+  border: solid;
+}
