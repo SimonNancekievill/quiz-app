@@ -11,6 +11,7 @@
   /* background: linear-gradient(315deg, #ffebcc, #ffebc4); */
   background-image: url(../assets/pexels-googledeepmind-17485709.jpg);
   background-size: cover;
+  background-attachment: fixed;
   overflow: visible;
   position: relative;
 }
