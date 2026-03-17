@@ -1,0 +1,14 @@
+.user {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  padding: 30px;
+}
+
+.profile-picture {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-size: auto;
+  grid-column-start: 1;
+}
