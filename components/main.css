@@ -5,7 +5,7 @@
   align-items: center;
   top: 45px;
   gap: 30px;
-  padding: 3%;
+  padding: 10px;
   width: 100%;
   min-height: 100%;
   /* background: linear-gradient(315deg, #ffebcc, #ffebc4); */
@@ -14,4 +14,8 @@
   background-attachment: fixed;
   overflow: visible;
   position: relative;
+}
+
+.main-content:last-child {
+  margin-bottom: 200px;
 }
