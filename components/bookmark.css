@@ -1,0 +1,13 @@
+.card__bookmark {
+  position: absolute;
+  top: -15px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.bookmak__icon {
+  position: relative;
+  background-color: white;
+}
