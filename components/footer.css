@@ -26,10 +26,41 @@
   height: 80px;
 }
 
-/* .footer__icon-home-active {
-  background-color: #fdfdfebf;
+.footer__icon-home-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e1dbcb1;
   transform: scale(1.02);
   border-radius: 50%;
-  height: auto;
-  width: auto;
-} */
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  object-position: center;
+}
+
+.footer__icon-bookmark-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e1dbcb1;
+  transform: scale(1.02);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  object-position: center;
+}
+
+.footer__icon-profile-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e1dbcb1;
+  transform: scale(1.02);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  object-position: center;
+}
