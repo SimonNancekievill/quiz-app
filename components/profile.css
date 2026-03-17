@@ -1,7 +1,7 @@
 .user {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(6, auto);
   gap: 10px;
   padding: 30px;
 }
@@ -12,10 +12,75 @@
   border: 0.5px solid;
   border-radius: 50%;
   grid-column-start: 1;
+  object-fit: cover;
 }
 
 .name {
   grid-column-start: 2;
   align-content: center;
+  letter-spacing: -2%;
+}
+
+.bio-title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  align-content: flex-end;
+}
+
+.bio-text {
+  grid-row-start: 3;
+  grid-column: span 2;
+}
+
+.profile-button-questions {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  background-color: #fdfdfe76;
+  backdrop-filter: blur(10px);
+  border: 0.5px solid #1d1d1f;
+  border-radius: 26px;
+  text-decoration: none;
+  padding: 6px 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  width: auto;
+}
+
+.profile-button-questions:hover {
+  background-color: #fdfdfebf;
+  transform: scale(1.02);
+}
+
+.profile-button-bookmarks {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  background-color: #fdfdfe76;
+  backdrop-filter: blur(10px);
+  border: 0.5px solid #1d1d1f;
+  border-radius: 26px;
+  text-decoration: none;
+  padding: 6px 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  width: auto;
+  height: 30px;
+}
+
+.profile-button-bookmarks:hover {
+  background-color: #fdfdfebf;
+  transform: scale(1.02);
+}
+
+.settings-headline {
+  grid-column-start: 1;
+  align-content: flex-end;
+  letter-spacing: -2%;
+}
+
+.settings-title {
+  grid-column-start: 1;
+  align-content: flex-end;
   letter-spacing: -2%;
 }
