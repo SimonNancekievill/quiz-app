@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="./js/index.js" defer></script>
     <title>CSS and HTML Quiz</title>
   </head>
-  <body class="main-content">
+  <body class="main-content" data-js="body-element">
     <header class="header">
       <h1 class="header-title">Profile</h1>
     </header>
-    <article class="user">
+    <article class="user" data-js="user">
       <img
         class="profile-picture"
-        src="./assets/s24-cx-jolle-wurms-social-8-1.webp"
+        src="./css/assets/s24-cx-jolle-wurms-social-8-1.webp"
       />
       <h2 class="name">Bastian</h2>
       <h3 class="bio-title">About me</h3>
@@ -24,30 +25,32 @@
       <button class="profile-button-questions">
         <span
           ><a class="icon-questions" href="./index.html"
-            ><img src="assets/conversation.png" height="15px" /></a
+            ><img src="./css/assets/conversation.png" height="15px" /></a
         ></span>
         10
       </button>
       <button class="profile-button-bookmarks">
         <span
           ><a class="icon-bookmark" href="./bookmark.html"
-            ><img src="assets/bookmark.svg" height="15px" /></a></span
+            ><img src="./css/assets/bookmark.svg" height="15px" /></a></span
         >5
       </button>
       <h3 class="settings-headline">Settings</h3>
       <h4 class="settings-title">Dark Mode</h4>
-      <input class="settings-input" type="checkbox" />
+      <input type="checkbox" id="checkboxInput" data-js="toggle-button" />
+      <label for="checkboxInput" class="toggleSwitch"> </label>
+      <button data-js="toggle-button">Toggle Mode</button>
     </article>
     <footer class="footer">
       <span class="footer-group">
         <a class="footer__icon-home" href="./index.html"
-          ><img src="assets/house.svg" height="40px"
+          ><img src="./css/assets/house.svg" height="40px"
         /></a>
         <a class="footer__icon-bookmark" href="./bookmark.html"
-          ><img src="assets/bookmark.svg" height="40px"
+          ><img src="./css/assets/bookmark.svg" height="40px"
         /></a>
         <a class="footer__icon-profile-active" href="./profile.html"
-          ><img src="assets/circle-user-round.svg" height="40px"
+          ><img src="./css/assets/circle-user-round.svg" height="40px"
         /></a>
       </span>
     </footer>
