@@ -64,3 +64,15 @@
   overflow: hidden;
   object-position: center;
 }
+
+.footer__icon-bookmark:hover,
+.footer__icon-profile:hover,
+.footer__icon-home:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e1cbc11;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
