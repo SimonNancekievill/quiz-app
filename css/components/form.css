@@ -1,9 +1,6 @@
-.question-card {
-  display: flex;
+.form-card {
+  display:flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  position: relative;
   height: minmax(300px, max-content);
   min-width: 100%;
   gap: 20px;
@@ -11,15 +8,14 @@
   padding: 32px;
   border-radius: 26px;
   backdrop-filter: blur(17px);
-  /* border: 1px solid; */
-  overflow: visible;
 }
 
-.question-title {
-  font-weight: 300;
+fieldset {
+    border: none;
+    gap: 20px;
 }
 
-.question-button {
+.submit-button {
   background:  #7c6bab90;
   backdrop-filter: blur(17px);
   border: 0.5px solid #1d1d1f;
@@ -33,7 +29,7 @@
   cursor: pointer;
   transition: 0.55s ease-in-out;
 }
-.question-button.active {
+.submit-button.active {
   background: #ffffff90;
   backdrop-filter: blur(17px);
   border: 0.5px solid #1d1d1f;
@@ -47,27 +43,4 @@
   cursor: pointer;
   /* transform: scale(0.9); */
   
-}
-.question-answer {
-  display: none;
-}
-
-.question-answer.active {
-  display: block;
-}
-
-.questions-tags {
-  display: flex;
-  flex-direction: row;
-  align-self: flex-start;
-  gap: 5px;
-  list-style: none;
-}
-.tags-item {
-  font-size: small;
-  background: #e5e5e5cc;
-  border: 0.5px solid;
-  padding: 4px 8px;
-  border-radius: 8px;
-  cursor: pointer;
 }
