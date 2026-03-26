@@ -25,54 +25,12 @@
   align-items: center;
   height: 80px;
 }
-
-.footer__icon-home-active {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #9476ff;
-  transform: scale(1.02);
-  border-radius: 50%;
-  height: 60px;
-  width: 60px;
-  overflow: hidden;
-  object-position: center;
-}
-
+.footer__icon-home {
+  /* background-image: url(/css/assets/house.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.footer__icon-home-active,
+.footer__icon-profile-active,
 .footer__icon-bookmark-active {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #9476ff;
-  transform: scale(1.02);
-  border-radius: 50%;
-  height: 60px;
-  width: 60px;
-  overflow: hidden;
-  object-position: center;
-}
-
-.footer__icon-profile-active {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #9476ff;
-  transform: scale(1.02);
-  border-radius: 50%;
-  height: 60px;
-  width: 60px;
-  overflow: hidden;
-  object-position: center;
-}
-
-.footer__icon-bookmark:hover,
-.footer__icon-profile:hover,
-.footer__icon-home:hover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #9476ff;
-  border-radius: 50%;
-  height: 60px;
-  width: 60px;
 }

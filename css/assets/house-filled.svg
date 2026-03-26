@@ -4,7 +4,6 @@
   <defs>
     <style>
       .st0 {
-        fill: none;
         stroke: #000;
         stroke-linecap: round;
         stroke-linejoin: round;
@@ -12,6 +11,5 @@
       }
     </style>
   </defs>
-  <path class="st0" d="M9,21v-8c0-.55.45-1,1-1h4c.55,0,1,.45,1,1v8"/>
   <path class="st0" d="M21,10v9c0,1.1-.9,2-2,2h-4v-8c0-.55-.45-1-1-1h-4c-.55,0-1,.45-1,1v8h-4c-1.1,0-2-.9-2-2v-9c0-.59.26-1.15.71-1.53l7-6c.74-.63,1.84-.63,2.58,0l7,6c.45.38.71.94.71,1.53Z"/>
 </svg>
