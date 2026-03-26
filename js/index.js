@@ -22,11 +22,13 @@ const answerButton = document.querySelector('[data-js="question-button"]');
 const answer = document.querySelector('[data-js="question-answer"]');
 const answerButtonValue = answerButton.textContent;
 
+
 answerButton.addEventListener("click", () => {
   answerButton.classList.toggle("active");
-  answerButton.textContent = "Hide Answer";
   answer.classList.toggle("active");
 
+  answerButton.textContent = answerButton.classList.contains("active") ? "Hide Answer" : answerButtonValue;
 });
 
+// -----------------------
 
