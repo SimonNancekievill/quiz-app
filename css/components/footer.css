@@ -25,14 +25,12 @@
   align-items: center;
   height: 80px;
 }
-
-.footer__icon-home-active, .footer__icon-profile-active, .footer__icon-bookmark-active  {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #9476ff;
-  background-size: 60px 60px;
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
+.footer__icon-home {
+  /* background-image: url(/css/assets/house.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.footer__icon-home-active,
+.footer__icon-profile-active,
+.footer__icon-bookmark-active {
 }
