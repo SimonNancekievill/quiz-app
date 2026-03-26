@@ -1,17 +1,10 @@
-// const mainContent = document.querySelector('[data-js="body-element"]');
-// const user = document.querySelector('[data-js="user"]');
-// toggleButton.addEventListener("click", () => {
-//   mainContent.classList.toggle("dark-mode");
-//   console.log("Darkmode toggle");
-// });
-
 // Bookmark Toggle
 
 const toggleButton = document.querySelector('[data-js="toggle-button"]');
-const bookmarkButton = document.querySelector('[data-js="bookmark-button"]')
+const bookMarkButton = document.querySelector('[data-js="bookmark-button"]');
 
-bookmarkButton.addEventListener("click", () => {
-  bookmarkButton.classList.toggle("active");
+bookMarkButton.addEventListener("click", () => {
+  bookMarkButton.classList.toggle("active");
 });
 
 // -----------------------
@@ -31,4 +24,3 @@ answerButton.addEventListener("click", () => {
 });
 
 // -----------------------
-

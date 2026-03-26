@@ -14,7 +14,7 @@
   width: 100%;
   height: 80px;
   position: fixed;
-  background: #ffffffb1;
+  background: #ffffff60;
   backdrop-filter: blur(17px);
 }
 
@@ -28,8 +28,8 @@
 .footer__icon-home {
   /* background-image: url(/css/assets/house.svg);
   background-repeat: no-repeat;
-  background-size: cover;
-} */
+  background-size: cover; */
+}
 .footer__icon-home-active,
 .footer__icon-profile-active,
 .footer__icon-bookmark-active {
