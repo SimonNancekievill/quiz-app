@@ -36,16 +36,22 @@ card.classList.add("question-card");
 const bookmark = document.createElement("button");
 bookmark.type ="button";
 bookmark.classList.add("card__bookmark");
+bookmark.addEventListener("click", () => {
+    bookmark.classList.toggle("active");
+});
 const title = document.createElement("h2");
 title.classList.add("question-title");
 title.textContent = event.target[1].value;
 const cardAnswer = document.createElement("p");
-cardAnswer.classList.add("question-answer.active");
+cardAnswer.classList.add("question-answer");
 cardAnswer.textContent = event.target[2].value;
 const showButton = document.createElement("button");
 showButton.classList.add("question-button");
 showButton.type ="button";
-showButton.textContent ="Hide Answer";
+showButton.textContent = "Show Answer";
+showButton.addEventListener("click", () => {
+    cardAnswer.classList.toggle("active")
+});
 const tagList = document.createElement("ul");
 tagList.classList.add("questions-tags");
 const tagItem = document.createElement("li");

@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
 }
 
 
@@ -13,7 +13,18 @@
   --background-gradient: linear-gradient(to right, #eaafc8, #654ea3);
   --background-gradient-darkmode: linear-gradient(to right, #29323c, #485563);
   --glass-background-color:  #ffffff38;
+  --button-active-color: #ffffffac;
   --shadow-color: #00000033;
   --secondary-color: #ededed;
   --light-grey-color: #e5e5e5cc;
+  --middle-grey-color: #707070;
+  --dark-grey-color: #444444;
+  --input-background-color: #ffffff7a;
+  --input-active-background-color: #ffffffd0;
+
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(fonts/Poppins-Regular.ttf);
 }
