@@ -5,7 +5,7 @@
   margin-top: 45px;
   gap: 10px;
   padding: 30px;
-  background: #ffffff38;
+  background: var(--glass-background-color);
   backdrop-filter: blur(17px);
   border-radius: 26px;
 }
@@ -13,7 +13,7 @@
 .profile-picture {
   height: 150px;
   width: 150px;
-  border: 0.5px solid;
+  border: 0.5px solid var(--primary-color);
   border-radius: 50%;
   grid-column-start: 1;
   object-fit: cover;
@@ -36,55 +36,42 @@
   grid-column: span 2;
 }
 
-.profile-button-questions {
+.profile-button-questions, .profile-button-bookmarks  {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   gap: 3px;
-  background-color: #fdfdfe76;
+  background-color: var(--light-grey-color);
   backdrop-filter: blur(10px);
-  border: 0.5px solid #1d1d1f;
+  border: 0.5px solid var(--primary-color);
   border-radius: 26px;
   text-decoration: none;
   padding: 6px 12px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px var(--shadow-color);
   cursor: pointer;
   width: auto;
+  font-size: large;
 }
 
-.profile-button-questions:hover {
-  background-color: #fdfdfebf;
-  transform: scale(1.02);
+.icon-bookmark > img, .icon-questions > img {
+  height: 25px;
 }
 
-.profile-button-bookmarks {
-  display: flex;
-  justify-content: center;
-  gap: 3px;
-  background-color: #fdfdfe76;
-  backdrop-filter: blur(10px);
-  border: 0.5px solid #1d1d1f;
-  border-radius: 26px;
-  text-decoration: none;
-  padding: 6px 12px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  width: auto;
-  height: 30px;
-}
-
-.profile-button-bookmarks:hover {
-  background-color: #fdfdfebf;
-  transform: scale(1.02);
+.profile-button-questions:hover, .profile-button-bookmarks:hover {
+  background-color: var(--button-active-color);
 }
 
 .settings-headline {
   grid-column-start: 1;
   align-content: flex-end;
   letter-spacing: -2%;
+  margin-top: 50px;
 }
 
 .settings-title {
   grid-column-start: 1;
   align-content: flex-end;
   letter-spacing: -2%;
+  font-size: small;
+  font-weight: 200;
 }
