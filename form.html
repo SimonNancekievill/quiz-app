@@ -12,8 +12,12 @@
     <header class="header">
       <h1 class="header-title">Question Form</h1>
     </header>
-    <form class="form-card" data-js="form">
-        <fieldset >
+    <form class="form-card" data-js="form" aria-labelledby="title" aria-describedby="description">
+      <h2 id="title" class="title">Create your own Questions</h2>
+    <p id="description" class="description">
+      This is your chance to create unique questions and share them with your friends.
+    </p>
+        <fieldset>
         <label for="input-question">Your Question:</label>
         <textarea id="input-question" type="text" data-js="input-question" maxlength="150" placeholder="e.g., In HTML, which attribute is used to specify that an input field must be filled out?"></textarea>
         <p class="remaining-characters-question">
@@ -25,7 +29,7 @@
             <span data-js="remaining-characters-answer">150</span> characters left
           </p>
         <label for="input-tag">Tag:</label>
-        <input id="input-answer" type="text" data-js="input-tag" placeholder="e.g., HTML" maxlength="150" />
+        <input id="input-tag" type="text" data-js="input-tag" placeholder="e.g., HTML" maxlength="150" />
         </fieldset>
         <button class="submit-button" data-js="submit-button" type="submit">Submit</button>
     </form>
