@@ -30,10 +30,11 @@ form.addEventListener("submit", (event) => {
     console.log(event.target[2].value);
     console.log(event.target[3].value);
 
-
+submitButton.classList.add("active");
 const card = document.createElement("section");
 card.classList.add("question-card");
 const bookmark = document.createElement("button");
+bookmark.type ="button";
 bookmark.classList.add("card__bookmark");
 const title = document.createElement("h2");
 title.classList.add("question-title");
@@ -43,6 +44,8 @@ cardAnswer.classList.add("question-answer.active");
 cardAnswer.textContent = event.target[2].value;
 const showButton = document.createElement("button");
 showButton.classList.add("question-button");
+showButton.type ="button";
+showButton.textContent ="Hide Answer";
 const tagList = document.createElement("ul");
 tagList.classList.add("questions-tags");
 const tagItem = document.createElement("li");

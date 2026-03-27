@@ -9,5 +9,11 @@
 
 
 :root {
-  
+  --primary-color: #1d1d1f;
+  --background-gradient: linear-gradient(to right, #eaafc8, #654ea3);
+  --background-gradient-darkmode: linear-gradient(to right, #29323c, #485563);
+  --glass-background-color:  #ffffff38;
+  --shadow-color: #00000033;
+  --secondary-color: #ededed;
+  --light-grey-color: #e5e5e5cc;
 }

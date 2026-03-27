@@ -8,8 +8,7 @@
   padding: 10px;
   width: 100%;
   min-height: 100%;
-  background: linear-gradient(to right, #eaafc8, #654ea3);
-  overflow: visible;
+  background: var(--background-gradient);
   position: relative;
 }
 
@@ -18,7 +17,7 @@
 }
 
 .dark-mode {
-  background: linear-gradient(to right, #29323c, #485563);
-  color: #ededed;
+  background: var(--background-gradient-darkmode);
+  color: var(--secondary-color);
 }
 

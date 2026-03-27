@@ -11,12 +11,14 @@
 }
 
 fieldset {
-    border: none;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  gap: 30px;
 }
 
 .submit-button {
-  background:  #7c6bab90;
+  background: #ffffff38;
   backdrop-filter: blur(17px);
   border: 0.5px solid #1d1d1f;
   border-radius: 26px;
@@ -30,7 +32,7 @@ fieldset {
   transition: 0.55s ease-in-out;
 }
 .submit-button.active {
-  background: #ffffff90;
+  background: #ffffffac;
   backdrop-filter: blur(17px);
   border: 0.5px solid #1d1d1f;
   border-radius: 26px;
@@ -40,7 +42,39 @@ fieldset {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   bottom: 60px;
   left: 10px;
-  cursor: pointer;
-  /* transform: scale(0.9); */
-  
+  cursor: pointer;  
+}
+
+.remaining-characters-answer,
+.remaining-characters-question {
+  font-size: x-small;
+  color:#444444;
+  margin-top: -28px;
+}
+
+input[type="text"], textarea[type="text"] {
+    background-color: #ffffff7a;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    min-height: 10vh;
+    color: #1d1d1f;
+    padding: 10px 8px;
+    font-size: small;
+}
+input[type="text"]:focus, textarea[type="text"]:focus {
+  background-color: #ffffffd0;
+  border: none;
+}
+
+input::placeholder, textarea::placeholder{
+  font-size: small;
+  color: #707070;
+}
+
+label {
+  font-weight: 400;
+  letter-spacing: -2%;
+  margin-bottom: -25px;
+  color: #1d1d1f;
 }
