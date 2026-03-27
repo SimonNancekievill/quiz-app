@@ -29,8 +29,8 @@ fieldset {
   bottom: 60px;
   left: 10px;
   cursor: pointer;
-  transition: 0.55s ease-in-out;
 }
+
 .submit-button.active, .submit-button:hover{
   background: var(--button-active-color);
 }
@@ -40,6 +40,7 @@ fieldset {
   font-size: x-small;
   color: var(--dark-grey-color);
   margin-top: -28px;
+  align-self: flex-end;
 }
 
 input[type="text"], textarea[type="text"] {

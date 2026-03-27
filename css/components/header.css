@@ -18,3 +18,8 @@
   font-weight: 600;
   color: var(--primary-color);
 }
+
+.header-darkmode {
+  background: var(--dark-grey-color);
+  color: var(--secondary-color);
+}

@@ -30,8 +30,6 @@
   bottom: 60px;
   left: 10px;
   cursor: pointer;
-  transition: 0.55s ease-in-out;
-  font-weight: 600;
 }
 .question-button.active, .question-button:hover {
   background: var(--button-active-color);  
