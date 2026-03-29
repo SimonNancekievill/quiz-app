@@ -50,7 +50,7 @@ showButton.classList.add("question-button");
 showButton.type ="button";
 showButton.textContent = "Show Answer";
 showButton.addEventListener("click", () => {
-    cardAnswer.classList.toggle("active")
+    cardAnswer.classList.toggle("active");
 });
 const tagList = document.createElement("ul");
 tagList.classList.add("questions-tags");
