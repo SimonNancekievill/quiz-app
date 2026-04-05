@@ -11,15 +11,15 @@ export function Footer() {
             height="40px"
         />`;
   const linkBookmark = document.createElement("a");
-  linkBookmark.href = "./";
+  linkBookmark.href = "./../bookmark.html";
   linkBookmark.innerHTML = `<img src="./css/assets/bookmark.svg" height="40px"
         />`;
   const linkForm = document.createElement("a");
-  linkForm.href = "./";
+  linkForm.href = "./../form.html";
   linkForm.innerHTML = `<img src="./css/assets/square-plus.svg" height="40px"
         />`;
   const linkProfile = document.createElement("a");
-  linkProfile.href = "./";
+  linkProfile.href = "./../profile.html";
   linkProfile.innerHTML = `<img src="./css/assets/square-user-round.svg" height="40px"
         />`;
   footer.append(footerGroup);
