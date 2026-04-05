@@ -1,4 +1,4 @@
-import { QuestionAnswer } from "../../lib/questions/QuestionAnswer.js";
+import { QuestionAnswer } from "../Questions/QuestionAnswer.js";
 
 export function AnswerButton() {
   const answerButton = document.createElement("button");

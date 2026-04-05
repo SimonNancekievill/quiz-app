@@ -1,5 +1,5 @@
 // Imports
-import { Body } from "../Components/Body/Body.js";
+import { Body } from "./Components/Body/Body.js";
 // -----------------------
 
 Body();
