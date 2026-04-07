@@ -5,7 +5,7 @@
   left: 0;
   width: 100%;
   height: 60px;
-  background: var(--glass-background-color);
+  background: hsla(150, 18%, 15%, 0.499);
   backdrop-filter: blur(17px);
   justify-content: center;
   align-items: center;
