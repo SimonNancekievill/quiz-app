@@ -1,4 +1,4 @@
-export function Footer() {
+export default function Footer() {
   const footer = document.createElement("footer");
   footer.classList.add("footer");
   const footerGroup = document.createElement("span");

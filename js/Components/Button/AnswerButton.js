@@ -1,6 +1,6 @@
 import { QuestionAnswer } from "../Questions/QuestionAnswer.js";
 
-export function AnswerButton() {
+export default function AnswerButton() {
   const answerButton = document.createElement("button");
   answerButton.type = "button";
   answerButton.classList.add("question-button");

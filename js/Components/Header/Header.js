@@ -1,4 +1,4 @@
-export function Header() {
+export default function Header() {
   const header = document.createElement("header");
   header.classList.add("header");
   const headerTitle = document.createElement("h1");
