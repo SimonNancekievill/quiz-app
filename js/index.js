@@ -1,5 +1,7 @@
 // Imports
-import { Body } from "./Components/Body/Body.js";
+import { Main } from "./Components/Main/Main.js";
+import Footer from "./Components/Footer/Footer.js";
+import Header from "./Components/Header/Header.js";
 // -----------------------
 
-Body();
+(Header(), Main(), Footer());

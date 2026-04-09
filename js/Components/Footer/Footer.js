@@ -1,6 +1,5 @@
 export default function Footer() {
-  const footer = document.createElement("footer");
-  footer.classList.add("footer");
+  const footer = document.querySelector('[data-js="footer"]');
   const footerGroup = document.createElement("span");
   footerGroup.classList.add("footer-group");
   const linkHome = document.createElement("a");
